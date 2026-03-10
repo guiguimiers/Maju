@@ -2,4 +2,5 @@ body{
   background-image: url(../assets/bravo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  color: aliceblue;
 }
