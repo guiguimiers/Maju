@@ -1,0 +1,45 @@
+body{
+    background-image: url(../assets/coracao.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    margin: 0;
+    height: 100vh;
+ }
+
+h1{
+  font-family:loved by the king;
+  color: white;
+  text-align: center;
+  font-size: 150px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+
+.coracao{
+    width: 200px;
+    height: 200px;
+    transform: scale(2);
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    clip-path: path("M100 30 C100 0 0 0 0 70 C0 130 100 180 100 180 C100 180 200 130 200 70 C200 0 100 0 100 30 Z");
+    animation: pulsar 2s infinite;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(2);
+    }
+    50% {
+        transform: scale(2.2);
+    }
+    100% {
+        transform: scale(2);
+    }
+}

@@ -1,0 +1,49 @@
+body{
+    background-image: url(../assets/coracao.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo {
+  align-items: center;
+  padding: 30px 200px;
+  height: 400px;
+  width: 600px;
+  margin: auto;
+  transform: translateY(-100px);
+  border-radius: 50px;
+  background-color: #2f0e6dcb;
+  font-family: 'Loved by the King', cursive;
+}
+
+.fundo h1 {
+  text-align: center;
+  font-size: 100px;
+  color: #ffffff;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+
+.botoes button{
+  background-color: #410f9e;
+  border-radius: 20px;
+  font-size: 30px;
+  padding: 10px 40px;
+  font-family: 'Loved by the King', cursive;
+}
+
+.botoes button:hover {
+  background-color: #8667c0;
+  cursor: pointer;
+}
